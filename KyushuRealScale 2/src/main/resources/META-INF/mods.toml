@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="kyushurealscale"
+version="0.1.0"
+displayName="Kyushu Real Scale"
+authors="Kyushu Real Scale Project"
+description='''
+Imports 16x16 real-scale terrain tiles from PNG heightmaps.
+Horizontal scale: 1 pixel = 1 Minecraft block = 1 metre.
+'''
+
+[[dependencies.kyushurealscale]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.kyushurealscale]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
